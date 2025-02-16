@@ -560,3 +560,17 @@ function run(horse) {
 function getRandomTime(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+// let money = 0;
+// let month = 0;
+
+// setInterval(() => {
+//   month += 1;
+//   money += 50;
+//   // console.log("money - ", money);
+//   // console.log("month - ", month);
+// }, 1000);
+
+// setInterval(() => {
+//   money += (money / 100) * 5;
+// }, 12000);
